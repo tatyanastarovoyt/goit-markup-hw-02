@@ -1,3 +1,69 @@
 button {
   cursor: pointer;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.logotype {
+font-family: 'Raleway',  sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-align: left;
+color:  #2E2F42;
+;
+}
+.logo-part {
+  color: #4D5AE5;;
+}
+.menu-link {
+styleName: Body Medium;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+color: #2E2F42;
+;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #9747FF;
+ ;
+}
+.address-link link {
+  color: #434455;
+}
+
+
+.address-link:hover,
+.address-link:focus {
+  color: #9747FF;
+}
+.hero-button {
+styleName: Button Text;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
+background-color: #4D5AE5;
+color: #FFFFFF;
+;
+}
+.hero-button:hover,
+.hero-button:focus {
+background-color: #404BBF;
+}
